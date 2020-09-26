@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:id="@+id/recycleCellImage"
+        android:src="@drawable/can"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/recycleCellText"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/recycleCellImage"
+        android:text="Place Holder"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
